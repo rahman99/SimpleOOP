@@ -13,7 +13,10 @@ public class SampleOOP {
 		
 		logicGame.polindrome("bohoohob");
 		
-		logicGame.recursiveManual(1,20);
+		logicGame.recursiveManual(1,4);
+		System.out.println("\n ========");
+		
+		logicGame.getStarTriangle(9);
 	}
 	
 	
