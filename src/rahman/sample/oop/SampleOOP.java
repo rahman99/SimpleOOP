@@ -25,6 +25,7 @@ public class SampleOOP {
 		System.out.println("\n\n=============Reverse Number and Polindrome========");
 		LogicalGame logicGame = new LogicalGame();
 		//===========Reverse Number=========================
+		
 		logicGame.reverseNumber(12930);
 		
 		//===========Detect Polindrome======================
@@ -38,11 +39,6 @@ public class SampleOOP {
 		logicGame.getStarTriangle(4);
 		
 	}
-	
-	
-	
-	
-	
 	
 	public static String convertNumberToRupiahFormat(int nominal){
 		Locale locale = new Locale("ca", "CA");

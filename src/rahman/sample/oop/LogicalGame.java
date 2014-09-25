@@ -20,7 +20,7 @@ public class LogicalGame{
 		int lengthInput = (int) Math.log10(input) + 1;
 		for (int i = lengthInput - 1; i >= 0; i--)
 			output = output + inputStr.charAt(i);
-		System.out.println(output);
+		System.out.println(input+" menjadi : "+output);
 	}
 
 	//polindrome adalah nilai yang baca dari depan dan belakang sama
